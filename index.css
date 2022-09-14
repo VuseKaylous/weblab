@@ -1,0 +1,197 @@
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* ---------------------------------------- gioi thieu ---------------------------------- */
+
+.home-title {
+    text-align: left;
+    color: #de0101;
+    margin: 40px 0 20px;
+    position: relative;
+    max-width: 100%;
+}
+
+.home-title > span {
+    display: inline-block;
+    font-size: 2rem;
+    text-transform: uppercase;
+    position: relative;
+    font-weight: normal;
+    color: #222;
+    line-height: 1;
+}
+
+.home-title1 {
+    text-align: center;
+    margin: 40px 0;
+    position: relative;
+    max-width: 100%;
+}
+
+.home-title1 > span {
+    display: inline-block;
+    font-size: 2rem;
+    text-transform: uppercase;
+    position: relative;
+    font-weight: normal;
+    line-height: 1;
+}
+
+.button, .btn-viewall {
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px 20px;
+    margin-top: 5px;
+    color: #fff;
+    background: #c91016;
+    border: 1.5px solid #c91016;
+    font-weight: normal;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+/* --------------------------------------- dich vu ---------------------------------- */
+
+.cat-box {
+    width: 100%;
+    margin: 0 0 30px;
+    position: relative;
+    top: 0;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.cat-img {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.cat-name {
+    text-transform: uppercase;
+    padding: 12px 15px;
+    font-weight: bold;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.cat-name h2 {
+    font-size: 1rem;
+    color: #de0101;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.cat-summary {
+    line-height: 1.4;
+    text-align: center;
+    min-height: 4.4em;
+}
+
+/* ---------------------------- tai sao chon chung toi ---------------------------------- */
+
+.bggray {
+    background: #fff;
+    padding: 10px 0 50px;
+    margin-top: 30px;
+    position: relative;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+}
+
+/* --------------------------------- comment ---------------------------------- */
+
+.no-js .owl-carousel, .owl-carousel.owl-loaded {
+    display: block;
+}
+
+.owl-carousel {
+    display: none;
+    width: 100%;
+    z-index: 1;
+}
+
+.owl-carousel.owl-grab {
+    /* cursor: move; */
+    cursor: grab;
+}
+
+.owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0,0,0);
+}
+
+.owl-carousel .owl-stage {
+    position: relative;
+    -ms-touch-action: pan-Y;
+    touch-action: manipulation;
+    -moz-backface-visibility: hidden;
+}
+
+.owl-carousel.owl-drag .owl-item {
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.owl-carousel .owl-item {
+    min-height: 1px;
+    float: left;
+    -webkit-backface-visibility: hidden;
+    -webkit-touch-callout: none;
+}
+
+.owl-carousel .owl-item, .owl-carousel .owl-wrapper {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+}
+
+.owl-carousel, .owl-carousel .owl-item {
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
