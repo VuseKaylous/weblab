@@ -251,7 +251,8 @@ textarea {
 #logo {
     position: relative;
     text-align: left;
-    padding: 0px 0;
+    /* padding: 0px 0; */
+    padding-top: 10px;
 }
 
 #logo img {
@@ -4731,7 +4732,7 @@ p.pname {
 }
 
 .menu-item>a {
-    padding: 0 20px;
+    padding: 0 10px;
     line-height: 100px;
 }
 

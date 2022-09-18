@@ -9,12 +9,29 @@
     padding-left: 15px;
 }
 
-.col-lg-2, .col-lg-10 {
+.col-lg-2 {
     position: relative;
     width: 100%;
+    flex: 0 0 8%;
+    max-width: 8%;
     padding-right: 0px;
     padding-left: 0px;
 }
+
+
+.col-lg-10 {
+    position: relative;
+    width: 100%;
+    flex: 0 0 92%;
+    max-width: 92%;
+    padding-right: 0px;
+    padding-left: 0px;
+    /* padding-top: 15px; */
+}
+
+/* #search {
+    top: 15px;
+} */
 
 /* ---------------------------------------- gioi thieu ---------------------------------- */
 
