@@ -116,7 +116,7 @@ h4.ui-pnotify-title {
 }
 
 .ui-pnotify-history-container .ui-pnotify-history-header {
-    padding: 2px;
+    /* padding: 2px; */
     text-align: center
 }
 
