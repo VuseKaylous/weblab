@@ -33,41 +33,26 @@
     top: 15px;
 } */
 
+.news-item {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.news-item .news-picture {
+    box-sizing: border-box;
+    width: 41.6666666667%;
+    float: left;
+}
+
+.news-item .news-description {
+    box-sizing: border-box;
+    width: 58.3333333333%;
+    float: right;
+}
+
 /* ---------------------------------------- gioi thieu ---------------------------------- */
-
-.home-title {
-    text-align: left;
-    color: #de0101;
-    margin: 40px 0 20px;
-    position: relative;
-    max-width: 100%;
-}
-
-.home-title > span {
-    display: inline-block;
-    font-size: 2rem;
-    text-transform: uppercase;
-    position: relative;
-    font-weight: normal;
-    color: #222;
-    line-height: 1;
-}
-
-.home-title1 {
-    text-align: center;
-    margin: 40px 0;
-    position: relative;
-    max-width: 100%;
-}
-
-.home-title1 > span {
-    display: inline-block;
-    font-size: 2rem;
-    text-transform: uppercase;
-    position: relative;
-    font-weight: normal;
-    line-height: 1;
-}
 
 .button, .btn-viewall {
     white-space: nowrap;
