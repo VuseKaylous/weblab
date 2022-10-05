@@ -1,0 +1,15 @@
+.facilities-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.facilities-col {
+    width: 33%;
+    margin: 0px;
+    display: inline-block;
+}
+
+.fpic {
+    display: block;
+    width: 100%;
+}
