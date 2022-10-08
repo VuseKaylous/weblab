@@ -1,0 +1,13 @@
+#box-contact {
+    width: 100%;
+}
+
+.contact-description {
+    width: 40%;
+    float: left;
+}
+
+.contact-map {
+    width: 60%;
+    float: right;
+}
