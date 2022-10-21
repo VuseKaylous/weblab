@@ -236,6 +236,7 @@ textarea {
 
 #header-wrap {
     position: relative;
+    background-color: white;
 }
 
 #header {
@@ -894,7 +895,8 @@ a.social i {
 
 .home-title {
     text-align: left;
-    color: #de0101;
+    /* color: #de0101; */
+    
     margin: 40px 0 20px;
     position: relative;
     max-width: 100%;
@@ -929,9 +931,13 @@ a.social i {
 
 .home-title1 {
     text-align: center;
-    margin: 40px 0;
     position: relative;
     max-width: 100%;
+    background-color: whitesmoke;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .home-title1>span {
